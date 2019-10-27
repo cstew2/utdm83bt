@@ -1,0 +1,189 @@
+--- Symbol List (sorted by symbol)
+AUDC0                    0015              (R )
+AUDC1                    0016              (R )
+AUDF0                    0017              (R )
+AUDF1                    0018              (R )
+AUDV0                    0019              (R )
+AUDV1                    001a              (R )
+check_collision          f137              (R )
+COLUBK                   0009              (R )
+COLUP0                   0006              (R )
+COLUP1                   0007              (R )
+COLUPF                   0008              (R )
+const_background_colour  00c6              (R )
+const_joystick0_down     0002              (R )
+const_joystick0_left     0004              (R )
+const_joystick0_right    0008              (R )
+const_joystick0_up       0001              (R )
+const_joystick1_down     0020              (R )
+const_joystick1_left     0040              (R )
+const_joystick1_right    0080              (R )
+const_joystick1_up       0010              (R )
+const_music_hold_frames  000a              (R )
+const_player0_speed_frames 000c              (R )
+const_player0_start_x    006d              (R )
+const_player1_speed_frames 0000                  
+const_player1_start_x    0055              (R )
+const_player_max_x       0098              (R )
+const_player_max_y       0012              (R )
+const_player_min_x       0008              (R )
+const_player_min_y       00b4              (R )
+const_player_speed_hold  0018              (R )
+const_player_speed_max   0002              (R )
+const_player_start_speed 0001              (R )
+const_player_start_y     0059              (R )
+const_playfield_colour   0012              (R )
+const_PRNG_seed          4f3a              (R )
+const_sprite_frame_hold  0005              (R )
+const_sprite_frames      000a              (R )
+const_sprite_size        0008              (R )
+CTRLPF                   000a              (R )
+CXBLPF                   0006                  
+CXCLR                    002c              (R )
+CXM0FB                   0004                  
+CXM0P                    0000                  
+CXM1FB                   0005                  
+CXM1P                    0001                  
+CXP0FB                   0002                  
+CXP1FB                   0003                  
+CXPPMM                   0007              (R )
+done_collision           f14a              (R )
+done_music               f0ec              (R )
+done_player0_frame_ptr   f259              (R )
+done_player1_frame_ptr   f2ed              (R )
+draw_bottom              f1aa                  
+draw_player0_done        f188              (R )
+draw_player1_done        f19c              (R )
+ENABL                    001f              (R )
+ENAM0                    001d              (R )
+ENAM1                    001e              (R )
+fn_main                  f161                  
+fn_overscan              f1b9                  
+fn_start                 f000              (R )
+fn_vblank                f0b1                  
+fn_vsync                 f0a1              (R )
+generate_PRNG            f2f9              (R )
+gfx_player0_palette_addr f450              (R )
+gfx_player1_palette_addr f458              (R )
+gfx_player_sprite_base_addr f400              (R )
+gfx_player_sprite_end_addr f450                  
+gfx_player_sprite_frame1 f408                  
+gfx_player_sprite_frame2 f410                  
+gfx_player_sprite_frame3 f418                  
+gfx_player_sprite_frame4 f420                  
+gfx_player_sprite_frame5 f428                  
+gfx_player_sprite_frame6 f430                  
+gfx_player_sprite_frame7 f438                  
+gfx_player_sprite_frame8 f440                  
+gfx_player_sprite_frame9 f448                  
+GRP0                     001b              (R )
+GRP1                     001c              (R )
+HMBL                     0024                  
+HMCLR                    002b              (R )
+HMM0                     0022                  
+HMM1                     0023                  
+HMOVE                    002a              (R )
+HMP0                     0020              (R )
+HMP1                     0021              (R )
+INPT0                    0008                  
+INPT1                    0009                  
+INPT2                    000a                  
+INPT3                    000b                  
+INPT4                    000c                  
+INPT5                    000d                  
+INTIM                    0284              (R )
+loop1                    f2fd              (R )
+loop2                    f304              (R )
+loop_clear_ram           f006              (R )
+loop_draw_bottom         f1ac              (R )
+loop_draw_middle         f174              (R )
+loop_draw_top            f163              (R )
+loop_overscan_wait       f2ef              (R )
+loop_vblank              f156              (R )
+music_theme_base_addr    f500              (R )
+music_theme_end_addr     f530              (R )
+NUSIZ0                   0004                  
+NUSIZ1                   0005                  
+PF0                      000d              (R )
+PF1                      000e              (R )
+PF2                      000f              (R )
+play_music               f0c4              (R )
+player0_joystick_done    f23b              (R )
+player0_joystick_down    f1eb              (R )
+player0_joystick_left    f205              (R )
+player0_joystick_right   f220              (R )
+player0_joystick_up      f1dc              (R )
+player0_sprite_done      f25b              (R )
+player0_update_sprite    f23f              (R )
+player0_vertical_done    f1f7              (R )
+player1_joystick_done    f2cf              (R )
+player1_joystick_down    f27c              (R )
+player1_joystick_left    f299              (R )
+player1_joystick_right   f2b4              (R )
+player1_joystick_up      f26d              (R )
+player1_sprite_done      f2ef              (R )
+player1_update_sprite    f2d3              (R )
+player1_vertical_done    f288              (R )
+REFP0                    000b              (R )
+REFP1                    000c              (R )
+RESBL                    0014                  
+reset_music              f0bc                  
+reset_player0_frame_ptr  f253              (R )
+reset_player1_frame_ptr  f2e7              (R )
+reset_touching           f148              (R )
+RESM0                    0012                  
+RESM1                    0013                  
+RESMP0                   0028                  
+RESMP1                   0029                  
+RESP0                    0010                  
+RESP1                    0011                  
+RSYNC                    0003                  
+skip_player0_speed       f109              (R )
+skip_player1_speed       f11e              (R )
+SWACNT                   0281                  
+SWBCNT                   0283                  
+SWCHA                    0280              (R )
+SWCHB                    0282                  
+T1024T                   0297                  
+TIA_BASE_ADDRESS         0000              (R )
+TIA_BASE_READ_ADDRESS    0000              (R )
+TIA_BASE_WRITE_ADDRESS   0000              (R )
+TIM1T                    0294                  
+TIM64T                   0296              (R )
+TIM8T                    0295                  
+TIMINT                   0285                  
+update_player0_gfx_ptr   f247                  
+update_player1_gfx_ptr   f2db                  
+var_music_counter        009b              (R )
+var_music_hold           009e              (R )
+var_music_ptr            009c              (R )
+var_player0_frame_count  0088              (R )
+var_player0_frames_left  0089              (R )
+var_player0_gfx_ptr      0084              (R )
+var_player0_moving       008b              (R )
+var_player0_palette_ptr  0086              (R )
+var_player0_scan_left    0083              (R )
+var_player0_speed        0082              (R )
+var_player0_speed_count  008a              (R )
+var_player0_x            0081              (R )
+var_player0_y            0080              (R )
+var_player1_frame_count  0094              (R )
+var_player1_frames_left  0095              (R )
+var_player1_gfx_ptr      0090              (R )
+var_player1_moving       0097              (R )
+var_player1_palette_ptr  0092              (R )
+var_player1_scan_left    008f              (R )
+var_player1_speed        008e              (R )
+var_player1_speed_count  0096              (R )
+var_player1_x            008d              (R )
+var_player1_y            008c              (R )
+var_rand                 0098              (R )
+var_touching             009a              (R )
+VBLANK                   0001              (R )
+VDELBL                   0027                  
+VDELP0                   0025                  
+VDELP1                   0026                  
+VERSION_VCS              0069                  
+VSYNC                    0000              (R )
+WSYNC                    0002              (R )
+--- End of Symbol List.
