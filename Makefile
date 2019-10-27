@@ -1,8 +1,8 @@
 TARGET		= utd83bt
 
-ASM		= ../tools/dasm/bin/dasm
+ASM		= dasm
 
-EMU		= ../tools/stella/stella
+EMU		= stella
 
 AFLAGS		:= -f3 -v5
 
@@ -17,13 +17,13 @@ build: $(SRC)
 
 .PHONY: test
 test:
-	@$(EMU) $(TARGET).bin
+	@$(EMU) $(TARGET).bin $(TARGET).sym
 	@echo testing generated binary
 
 .PHONY: clean
 clean:
-	@rm $(TARGET).bin
-	@echo removed $(TARGET).bin
+	@rm -f $(TARGET).bin $(TARGET).sym
+	@echo removed $(TARGET).bin $(TARGET).sym
 
 .PHONY: rebuild
 rebuild: clean build
